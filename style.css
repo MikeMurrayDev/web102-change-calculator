@@ -1,0 +1,55 @@
+.grid-container-entry {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: blue;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.grid-item-entry {
+    background-color: cornflowerblue;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.divider {
+    padding: 1em;
+}
+
+.grid-container-change {
+    padding-top: 2em;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: blue;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.grid-item-change {
+    background-color: cornflowerblue;
+    border: 1px solid rgba(204, 217, 219, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(39, 40, 41);
+    text-align: center;
+}
+
+.button {
+    padding: 10px;
+    text-align: center;
+}
+
+#changeButton {
+    background-color: darkgreen;
+    border: none;
+    color: whitesmoke;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    width: 16em;
+    height: 3em;
+}

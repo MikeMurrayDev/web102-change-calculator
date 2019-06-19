@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
     <title>Change Calculator</title>
   </head>
   <body>
+    <h1>Change Calculator</h1>
     <!-- Write your markup here -->
 
-    <!-- Don't forget to add your <script> tag here -->
+    <div class="grid-container-entry">
+      <div class="grid-item-entry">
+        <div>
+          How much is due for the sale:
+        </div>
+        <input id="amount-due" type="text" placeholder="Enter cost of item" />        
+      </div>
+      <div class="grid-item-entry">
+        <div>
+          How much have you received from the customer:
+        </div>
+        <input id="amount-received" type="text" placeholder="Enter money received" />
+      </div>
+    </div>
 
+    <div class="button">
+        <button id="calculate-change" onclick="calculateChange()">Calculate Change</button>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="grid-container-change">
+      <div class="grid-item-change">
+        <div>Dollars</div>
+        <p id="dollars-output">0</p>        
+      </div>
+      <div class="grid-item-change">
+        <div>Quarters</div>
+        <p id="quarters-output">0</p>        
+      </div>
+      <div class="grid-item-change">
+        <div>Dimes</div>
+        <p id="dimes-output">0</p>        
+      </div>
+      <div class="grid-item-change">
+        <div>Nickels</div>
+        <p id="nickels-output">0</p>        
+      </div>
+      <div class="grid-item-change">
+        <div>Pennies</div>
+        <p id="pennies-output">0</p>        
+      </div>
+
+    </div>
+
+    <!-- Don't forget to add your <script> tag here -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="main.js" charset="utf-8"></script>
   </body>
 </html>
